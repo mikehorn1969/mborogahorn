@@ -1,0 +1,73 @@
+/* style.css */
+
+html{
+	height: 100%;
+}
+
+.default-body{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background: #8e9eab;  /* fallback for old browsers */
+
+	background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	padding-top: 15%;
+}
+
+#splash-content{
+	text-align: left;
+	color: black;
+}
+
+
+
+#child-content{
+	text-align: centre;
+	/*padding-top: 15%;*/	
+}
+
+.about-block-1 .col-md{
+	height: 500px;
+	padding-top: 10%;
+}
+
+
+.nav{
+	top: 0;
+	height: 60x;
+}
+
+.nav-up{
+	top: -60;
+}
+
+.gallery-card{
+	width: 18rem;
+}
+
+img{
+	width: 10pc;
+}
+
+.page-link, .page-link:hover{
+	color: black;
+	background-color: #dcdce3;
+}
+
+.content-lg{
+	background-color: #dcdce3;
+	padding-top: 7%;
+}
+
+.whitebox{
+	background-color: #FFFFFF;
+	float: right;
+	padding-right: 5%;
+}
+
+.bodytext{
+	padding-bottom: 1em;
+}
+
