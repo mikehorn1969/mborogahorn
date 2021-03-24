@@ -8,25 +8,27 @@ html{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-image: url('img/stephen-dawson-qwtCeJ5cLYs-unsplash.jpg') ;	
+	background: #9acdf7;  /*fallback for old browsers*/
+	background: -webkit-linear-gradient(to right, #eef2f3, #9acdf7);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #eef2f3, #9acdf7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */	
 	padding-top: 8%; 
+	font-family: Rockwell;
 }
 
 .text-bg{
-	font-family: Rockwell;
-	background: #8e9eab;  /*fallback for old browsers*/
-	background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #9acdf7;  /*fallback for old browsers*/
+	background: -webkit-linear-gradient(to right, #eef2f3, #9acdf7);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #eef2f3, #9acdf7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #splash-content{
 	text-align: left;
-	font-family: Rockwell;
 }
 
 #child-content{
 	text-align: centre;
 	font-size: large;
+	
 }
 
 .about-block-1 .col-md{
@@ -43,7 +45,6 @@ html{
 
 .nav-link{
 	color: #007bff;
-	font-family: Rockwell; 
 }
 
 
@@ -53,19 +54,17 @@ html{
 
 .dropdown-item{
 	color: #007bff;
-	font-family: Rockwell; 
 }
 
 .gallery-card{
 	width: 18rem;
 }
 
-img{
+.navbar-bran .img{
 	width: 10pc;
 }
 
 .page-link, .page-link:hover{
-	/* color: black; */
 	background-color: #dcdce3;
 }
 
@@ -81,8 +80,13 @@ img{
 }
 
 .bodytext{
-	font-family: Rockwell; 
 	padding-bottom: 1em;
 
 }
 
+.img-col{
+	width: 100%;
+	justify-content: flex-end;
+	background-image: url('img/stephen-dawson-qwtCeJ5cLYs-unsplash.jpg');
+	background-size: 100%;
+}
