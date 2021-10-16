@@ -52,12 +52,16 @@ html{
 	width: 18rem;
 }
 
-.navbar-bran .img{
+.navbar-brand .img{
 	width: 10pc;
 }
 
 .navbar-custom {
     background-color: #ffffff;
+}
+
+.navbar-toggler-icon {
+	background-image: url('https://mdbcdn.b-cdn.net/img/svg/hamburger6.svg?color=000');
 }
 
 .page-link, .page-link:hover{
@@ -69,8 +73,7 @@ html{
 	padding-top: 7%;
 }
 
-.whitebox{
-	/*background-color: #FFFFFF;*/
+.badge{
 	float: right;
 	padding-right: 5%;
 }
@@ -97,4 +100,8 @@ html{
   .img-fluid {
 	max-width: 100%;
 	height: auto
+  }
+
+  .container {
+	padding-top: 7%;
   }
