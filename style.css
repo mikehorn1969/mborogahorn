@@ -18,12 +18,6 @@ html{
 	text-align: left;
 }
 
-#child-content{
-	text-align: centre;
-	font-size: large;
-	
-}
-
 .about-block-1 .col-md{
 	height: 500px;
 	padding-top: 10%;
@@ -64,15 +58,6 @@ html{
 	background-image: url('https://mdbcdn.b-cdn.net/img/svg/hamburger6.svg?color=000');
 }
 
-.page-link, .page-link:hover{
-	background-color: #dcdce3;
-}
-
-.content-lg{
-	background-color: #dcdce3;
-	padding-top: 7%;
-}
-
 .badge{
 	float: right;
 	padding-right: 5%;
@@ -94,7 +79,6 @@ html{
 	position: absolute;
 	bottom: 6px;
 	left: 16px;
-	/* color:white; */
   }
 
   .img-fluid {
